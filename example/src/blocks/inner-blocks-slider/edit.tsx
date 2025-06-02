@@ -1,5 +1,5 @@
 import React from 'react';
-import { InnerBlockSlider } from '@10up/block-components';
+import { InnerBlockSlider } from '@10up/block-components/components/inner-block-slider';
 import { useBlockProps } from '@wordpress/block-editor';
 
 export const BlockEdit = (props) => {

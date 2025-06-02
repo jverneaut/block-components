@@ -4,7 +4,7 @@ import { close, plus } from "@wordpress/icons";
 import { __ } from '@wordpress/i18n';
 import { useBlockProps } from '@wordpress/block-editor';
 
-import { Repeater } from "@10up/block-components";
+import { Repeater } from "@10up/block-components/components/repeater";
 
 export function BlockEdit(props) {
 	function customAddButton(addItem) {

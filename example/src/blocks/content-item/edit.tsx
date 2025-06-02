@@ -2,16 +2,14 @@ import React from 'react';
 import { useBlockProps } from '@wordpress/block-editor';
 import { __ } from '@wordpress/i18n';
 
-import {
-	PostContext,
-	PostFeaturedImage,
-	PostTitle,
-	PostPrimaryCategory,
-	PostDate,
-	PostCategoryList,
-	PostAuthor,
-	PostExcerpt
-} from '@10up/block-components';
+import { PostContext } from '@10up/block-components/components/post-context';
+import { PostFeaturedImage } from '@10up/block-components/components/post-featured-image';
+import { PostTitle } from '@10up/block-components/components/post-title';
+import { PostPrimaryCategory } from '@10up/block-components/components/post-primary-category';
+import { PostDate } from '@10up/block-components/components/post-date';
+import { PostCategoryList } from '@10up/block-components/components/post-category-list';
+import { PostAuthor } from '@10up/block-components/components/post-author';
+import { PostExcerpt } from '@10up/block-components/components/post-excerpt';
 
 export const BlockEdit = ({ context }) => {
 	const blockProps = useBlockProps();

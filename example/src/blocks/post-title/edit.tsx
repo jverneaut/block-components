@@ -1,6 +1,6 @@
 import React from 'react';
 import { useBlockProps } from '@wordpress/block-editor';
-import { PostTitle } from '@10up/block-components';
+import { PostTitle } from '@10up/block-components/components/post-title';
 
 export const BlockEdit = ({context}) => {
 	const blockProps = useBlockProps();

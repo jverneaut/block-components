@@ -1,4 +1,4 @@
-import { registerBlockExtension } from "@10up/block-components";
+import { registerBlockExtension } from "@10up/block-components/api/register-block-extension";
 import { BlockEdit } from "./edit";
 
 const BACKGROUND_ATTRIBUTES = {

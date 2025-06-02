@@ -2,7 +2,8 @@ import React from 'react';
 import { __ } from '@wordpress/i18n';
 import { BlockControls, useBlockProps } from '@wordpress/block-editor';
 
-import { Image, MediaToolbar } from '@10up/block-components';
+import { Image } from '@10up/block-components/components/image';
+import { MediaToolbar } from '@10up/block-components/components/media-toolbar';
 
 export function BlockEdit(props) {
     const {

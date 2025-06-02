@@ -3,7 +3,7 @@ import { __ } from '@wordpress/i18n';
 import { useBlockProps, RichText } from '@wordpress/block-editor';
 import { Flex } from '@wordpress/components';
 
-import { Link } from '@10up/block-components';
+import { Link } from '@10up/block-components/components/link';
 
 export function BlockEdit(props) {
     const {

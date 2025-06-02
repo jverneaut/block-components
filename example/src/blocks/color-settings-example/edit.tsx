@@ -3,7 +3,7 @@ import { __ } from '@wordpress/i18n';
 import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
 import { PanelBody } from '@wordpress/components';
 
-import { ColorSetting } from '@10up/block-components';
+import { ColorSetting } from '@10up/block-components/components/color-settings';
 
 export const BlockEdit = (props) => {
 	const {

@@ -3,7 +3,7 @@ import { __ } from '@wordpress/i18n';
 import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
 import { PanelBody, Placeholder } from '@wordpress/components';
 
-import {ContentPicker} from '@10up/block-components';
+import { ContentPicker } from '@10up/block-components/components/content-picker';
 
 export const BlockEdit = (props) => {
 	const {

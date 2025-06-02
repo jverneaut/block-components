@@ -2,7 +2,7 @@ import React from 'react';
 import { useBlockProps } from '@wordpress/block-editor';
 import { __ } from '@wordpress/i18n';
 
-import { PostFeaturedImage } from '@10up/block-components';
+import { PostFeaturedImage } from '@10up/block-components/components/post-featured-image';
 
 export const BlockEdit = ({ context }) => {
 	const blockProps = useBlockProps();

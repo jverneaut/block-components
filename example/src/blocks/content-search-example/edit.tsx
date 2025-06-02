@@ -3,7 +3,7 @@ import { __ } from '@wordpress/i18n';
 import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
 import { PanelBody, Placeholder } from '@wordpress/components';
 
-import { ContentSearch } from '@10up/block-components';
+import { ContentSearch } from '@10up/block-components/components/content-search';
 
 export const BlockEdit = (props) => {
 	const {

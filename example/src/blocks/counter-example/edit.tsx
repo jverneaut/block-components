@@ -3,7 +3,7 @@ import { __ } from '@wordpress/i18n';
 import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
 import { PanelBody, Placeholder, TextControl } from '@wordpress/components';
 
-import { Counter } from '@10up/block-components';
+import { Counter } from '@10up/block-components/components/counter';
 import { useState } from '@wordpress/element';
 
 export const BlockEdit = () => {

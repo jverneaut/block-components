@@ -6,7 +6,8 @@ import {
 	store as blockEditorStore,
 } from '@wordpress/block-editor';
 import { useSelect, useDispatch } from '@wordpress/data';
-import { PostMeta, PostContext } from '@10up/block-components';
+import { PostMeta } from '@10up/block-components/components/post-meta';
+import { PostContext } from '@10up/block-components/components/post-context';
 
 export const BlockEdit = (props) => {
 	const { attributes, setAttributes, name, context } = props;

@@ -7,7 +7,7 @@ import {
     IconPicker,
     IconPickerToolbarButton,
     InlineIconPicker,
-} from '@10up/block-components';
+} from '@10up/block-components/components/icon-picker';
 
 export function BlockEdit(props) {
     const {

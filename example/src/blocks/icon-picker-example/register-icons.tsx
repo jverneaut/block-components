@@ -43,7 +43,7 @@ import {
 } from '@wordpress/icons';
 import { renderToString } from '@wordpress/element';
 
-import { registerIcons } from '@10up/block-components';
+import { registerIcons } from '@10up/block-components/api/register-icons';
 
 registerIcons({
     name: 'example/theme',

@@ -1,7 +1,7 @@
 import React from 'react';
 import { __ } from '@wordpress/i18n';
 import { useBlockProps } from '@wordpress/block-editor';
-import { RichTextCharacterLimit } from '@10up/block-components';
+import { RichTextCharacterLimit } from '@10up/block-components/components/rich-text-character-limit';
 
 export const BlockEdit = (props) => {
 	const {
